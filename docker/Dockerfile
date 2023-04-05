@@ -1,4 +1,4 @@
-FROM ruby:3-alpine3.13
+FROM ruby:3.2.1-slim
 
 RUN apk --no-cache add git build-base ruby-dev mysql-client mysql-dev sqlite-dev postgresql-client postgresql-dev \
   && cd /tmp/ \
